@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+html, body {
+	margin: 0;
+	font-family: Noto Sans KR;
+	color: #FFFFFF;
+}
+
+#navi_top{
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #f5f5f7;
+    position: fixed;
+    background-color: #131212f0;
+    padding: 10px 5px;
+}
+
+#navi_top .navi_left{
+    float: left;
+    width: 30%;
+	text-align: left;
+	margin: 0 0 0 20px;
+    left: 10px;
+} 
+
+ 
+/*
+#navi_top{
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #f5f5f7;
+    position: fixed;
+    background-color: #131212f0;
+    padding: 10px 5px;
+}
+
+ 
+
+#navi_top .navi_left{
+    float: left;
+    width: 30%;
+	text-align: left;
+	margin: 0 0 0 20px;
+    left: 10px;
+} 
+
+#navi_top .navi_right{
+    float: right;
+    width: 60%;
+    text-align: right;
+    margin: 0 30px 0 0;
+    font-size: small;
+} */
+
+.home{
+	  text-align: left;
+
+}
+
+
+.section {
+	width: 100%;
+	text-align: center;
+	padding-top: 3%;
+
+}
+
+#intro{
+	font-size: 70px;
+}
+
+.p1{
+	font-size: 30px;
+}
+
+.p2{
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 30px;
+    font-weight: normal;
+}
+
+a:link{color: #2997ff;}
+a:visited{color: #2997ff;}
+a:hover{text-decoration: underline; color: #2997ff;}
+a:active{text-decoration: underline; color: #2997ff;}
+
+/*홈사이트에 상관없이 보류된 스타일들*/
+
+/* 본문 내용 외 다른 위치에 등장할 내용 (홍보 등)*/
+.aside{
+	width: 20%;
+	text-align: center;
+}
+
+.footer{
+	width: 100%;
+	clear: both;
+	padding: 10px 25px 30px;
+	/*간격: 위, 오른쪽, 아래, 왼쪽*/
+	margin: 15px;
+	/*테두리 안쪽 간격*/
+	color: purple;
+}
+
+.intro{
+	height: : 200%;
+	text-align: center;
+	font-weight: bold;
+}
+.sizedbox{
+    height: 500px
+}
+
+.section1{
+    background-color: #000000;
+    height: 800px;
+    padding-top: 100px;
+}
+
+.simple1{
+    float: left;
+    padding-top: 100px; 
+
+}
+.simple2{
+     width: 900px;
+    font-size: 40px; 
+    padding-top: 100px; 
+}
+
+.name{
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 30px;
+    width: 400px;
+    float: left;
+}
+
+hr {
+	background-color: white;
+}

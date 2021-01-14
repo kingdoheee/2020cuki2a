@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Sunflower:wght@300;500;700&display=swap');
+
+
+
+/*reset*/
+* {margin: 0; padding:0;}
+html, body, div, span, applet, object, iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote, pre,a,abbr,
+acronym, address,big,cite,code,del,dfn,em,font,img,
+ins, kbd, q,s,samp, small,strike, strong,
+sub,sup,tt,var,b,u,i,center, dl,dt,
+dd, ol,ul,li,fieldset, form, label, legend,
+table, tbody, tfoot, thead, tr,th,td
+{margin: 0; padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight: 700; font-size: inherit;}
+a{color: inherit; text-decoration: inherit; background-color: transparent;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+body{font-family: 'Noto Sans KR', sans-serif; font-style: normal; font-weight: 100;
+font-family: 'futura-pt', sans-serif; font-style: normal;
+font-family: 'Sunflower', sans-serif; font-style: normal; font-weight: 500;
+font-size: 16px; color: #272727; line-height: 1.4;background-color: #e6e6e6;}
+.wrap{width: 100%; min-width: 1100px; overflow: hidden;}
+
+/*header*/
+header{
+  font-family: futura-pt,sans-serif; font-style: normal;font-weight: 400;letter-spacing: 0.1em;
+}
+header {width : 100%; height: 90px; line-height: 90px; padding:0 60px;
+  box-sizing: border-box; position: relative; top:0; background: #e6e6e6; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+position: fixed;}
+header .logo{display: flex; height: 90px;
+  font-size: 24px; left:0;position: fixed;
+
+}
+header img{height: 60%; margin-left: 50px; margin-top: 15px;}
+
+header nav{right: 0; position:fixed; margin-right: 50px; background-color: #e6e6e6; z-index:1;}
+header nav .gnb li {display: inline-block; margin-left: 60px;}
+header nav .gnb li a {display: block; font-size: 18px; text-transform: uppercase;position: relative;
+}
+header nav .gnb li a:after{content:''; width:0%; height: 3px; position: absolute;
+background: #888; bottom: 31px; left:50%; transform:translateX(-50%);
+transition: all 0.5s;}
+header nav .gnb li a:hover:after, header nav .gnb li a:focus:after{
+  width: 100%; color: #ffffff;
+}
+
+/*section.home*/
+.home{ width: 100%; height: auto;
+background-size: cover; background-position: center; background-repeat: no-repeat;
+text-align: center;margin-bottom: 100px;}
+.home .inner {width: 100%; height : 900px; margin: 0;}
+.home .homeTitle{width: 100%; height: auto; display: inline-block; margin-top: 150px;}
+.home .homeTitle{font-size: 35px;line-height: 1.5; letter-spacing: 6px;
+  font-family: 'Sunflower', sans-serif; font-style: normal; font-weight: 300;}
+.home .homePhoto{width: 100%; height: auto; margin-top: 50px;}
+.home .homePhoto img{width: 600px; height: auto;}
+
+/*section.project.sleep*/
+.project{width: 100%; height: 900px; }
+.project .sleep { width: 50%;height: 900px; float: left;}
+/*.project .sleep img {width: 200%;}*/
+/*section.project.text*/
+.project .text {height: 900px; float: left; margin-top: 350px; margin-bottom: 100px;padding-left: 70px;}
+.project .projectTitle {border-left-color: #252b32; border-left-width: 8px; border-left-style: solid;
+  padding-left:25px;   font-size: 37px; swidth: 100%; letter-spacing: 1.7px;}
+.project .usa{margin-top: 50px; width: 100%; height: 50px;}
+.project .world{margin-top: 5px;width: 100%; height: 50px;}
+.project .korea{margin-top: 5px; margin-bottom: 30px;width: 100%;height: 50px; }
+.project .usaBar{  background: white;
+  height: 30px; width: 450px;
+  border-radius: 15px; float: left; margin-left: 30px;}
+.project .worldBar{  background: white;
+  height: 30px; width: 420px;
+  border-radius: 15px; float: left; margin-left: 30px;}
+.project .koreaBar{  background: #ee985b;
+  height: 30px; width: 300px;
+  border-radius: 15px; float: left; margin-left: 30px;}
+.project .text img {width: 30px; float: left;}
+.project .explain {font-family: 'Noto Sans KR'; line-height: 1.6em; font-size: 20px;}
+
+/*section.project2*/
+.project2 {width: 1400px; height: 900px; padding-top: 300px; margin: 0 auto;}
+.project2 .project2Title {text-align: center; width: 100%; margin-top: 100px; font-size: 30px; margin-bottom: 50px; letter-spacing: 0.1em; white-space: nowrap; clear: both;}
+.project2 ul{width: 100%; height: auto; margin: 0 auto; overflow: hidden;}
+.project2 ul li{float: left; width: 24%; margin-right: 10%;margin-bottom: 80px; }
+.project2 ul li:nth-child(3){margin-right: 0;}
+.project2 ul li a { display: block; width: 100%; height: 100%; border-width: 2.5px;border-color: black; border-style: solid;
+border-radius: 85px; padding: 50px; font-size: 20px; text-align: center;}
+.project2 ul li h2 {font-size: 30px; margin-top: 5px; margin-bottom:  30px;}
+.project2 ul li .Text {font-family: "Noto Sans KR"; font-size: 17px; font-weight: 300;}
+.project2 img{width: 80%; height: auto; padding-top: 40px; display:
+margin: 0 auto;}
+
+/*section.project3*/
+.project3 {width: 1400px; height: 900px; padding-top: 100px; margin: 0 auto;}
+.project3 img{width: 50%; height: auto;display: block; margin: 0 auto;}
+.project3 p{font-weight: 300; margin: 0 auto; font-size: 200%; letter-spacing: 0.15em; text-align: center;}
+
+/*section.howToUse1*/
+.howToUse_day {width: 1400px; height: 900px; margin: 0 auto;}
+.howToUse_day .day_text {width: 40%; height: auto; padding: 50px; float: left; margin-top: 230px;}
+.howToUse_day .day_text h1{ font-family: "futura-pt"; font-size: 42px;letter-spacing: 0.2em;}
+.howToUse_day .day_text #day_num{ width: 80px;font-family: "futura-pt"; font-size: 45px; font-weight: 500; margin: 40px; float: left;}
+.howToUse_day .day_text h3{ width: 70%;font-size: 22px;letter-spacing: 0.2em;margin-top: 30px; margin-bottom: 10px; float: left;}
+.howToUse_day .day_text p{  width: 70%;font-family: "Noto Sans KR"; font-size: 17px; font-weight: lighter;letter-spacing: 0.2em; margin-bottom: 30px; float: left}
+.howToUse_day img {width: 40%; height: auto; float: left; margin-top: 90px; margin-left: 100px;}
+
+
+/*section.howToUse2*/
+.howToUse_night {width: 100%; height: 900px; margin: 0 auto; background-color: #1e1f20; }
+.howToUse_night .night_text {width: 40%; height: auto; padding: 50px; float: right; margin-top: 280px; }
+.howToUse_night .night_text h1{ font-family: "futura-pt"; font-size: 42px;letter-spacing: 0.2em; color: #e6e6e6; margin-left: 320px;}
+.howToUse_night .night_text #night_num{ width: 80px;font-family: "futura-pt"; font-size: 45px; font-weight: 500; margin: 40px; float: left;color: #e6e6e6;}
+.howToUse_night .night_text h3{ width: 70%;font-size: 22px;letter-spacing: 0.2em;margin-top: 30px; margin-bottom: 10px; float: left;color: #e6e6e6;}
+.howToUse_night .night_text p{  width: 70%;font-family: "Noto Sans KR"; font-size: 17px; font-weight: lighter;letter-spacing: 0.2em; margin-bottom: 30px; float: left; color: #e6e6e6;}
+.howToUse_night img {width: 35%; height: auto; margin-top: 100px;margin-left: 130px;}
+
+/*section.howToUse3*/
+.howToUse_video {width: 100%; height: 1100px; margin: 0 auto; background-color: #1e1f20;  }
+.howToUse_video p {font-size: 30px; letter-spacing: 0.1em; color: #e6e6e6; padding-top: 200px; margin-bottom: 100px;text-align: center;}
+.howToUse_video img{width: 25%; margin-left: 120px; margin-right: 50px; float: left;}
+.howToUse_video video{width: 60%; float: left;}
+
+/*section.howToUse3.5*/
+.howToUse_photos {width: 1400px; height: 2500px; margin: 100px auto;}
+.howToUse_photos p {font-size: 30px; letter-spacing: 0.1em;  padding-top: 200px; margin-bottom: 100px;text-align: center;}
+.howToUse_photos img{width: 50%; height: auto;float: left; margin-bottom: 100px; }
+.howToUse_photos #photo1{width: 37.5%; margin-left: 50px;margin-right: 50px;}
+.howToUse_photos #photo3{width: 70%;}
+.howToUse_photos #photo4{width: 70%; float: right;}
+/*section.howToUse4*/
+.howToUse_components {width: 1400px; height: 2000px; margin: 0 auto; text-align: center; }
+.howToUse_components h2 {width: 100%;font-size: 30px; letter-spacing: 0.1em;  padding-top: 200px;}
+.howToUse_components img {width: 85%; display: inline-block;}
+.howToUse_components .compo_text {display: inline-block; }
+
+.howToUse_components p {font-family: "Noto Sans KR"; font-size: 16.5px; letter-spacing: 0.1em; font-weight: lighter;text-align: left; padding-bottom: 5px;}
+
+/*section.marketing1*/
+.marketing1 {width: 1400px; height: 900px; padding-top: 100px; margin: 0 auto;}
+.marketing1 .marketing1Title{margin: 0 auto; font-size: 30px; letter-spacing: 0.2em; text-align: center; margin-bottom: 30px;}
+.marketing1 .marketing1Title img {width: 7%; height: auto;}
+.marketing1 ul{width: 1400px; height: auto; overflow: hidden; text-align: center;}
+.marketing1 ul li {display: inline-block; width: 50%; }
+.marketing1 ul li a {display: inline-block; width: 100%; height: auto; background-color: #f8f8f8;
+  border-radius:60px; padding: 20px;overflow: hidden; margin: 15px auto ;box-shadow:3px 3px 3px 3px rgba(0,0,0,0.1);}
+.marketing1 ul li a .big_text {width: 20%; height: auto;float: left; margin: 5px;
+font-size: 50px;}
+.marketing1 ul li a .big_text h2 {font-size: 20px;}
+.marketing1 ul li a .small_text {width: auto; float: left; text-align: left; font-family: "Noto Sans KR"; font-weight: lighter; margin-top: 10px;padding: 10px 50px;
+border-left-color: #252b32; border-left-width: 2.5px; border-left-style: solid; line-height: 1.9em; font-size: 16px;}
+
+
+/*section.marketing2*/
+.marketing2 {width: 1400px; height: 900px; padding-top: 100px; margin: 0 auto;}
+.marketing2 .marketing2Title{margin: 0 auto; font-size: 30px; letter-spacing: 0.2em; text-align: center; margin : 20px 0 100px 30px;}
+.marketing2 .marketing2Title img {width: 7%; height: auto;margin-left: 20px;}
+.marketing2 ul{width: 1400px; height: auto;overflow: hidden; text-align: center;}
+.marketing2 ul li {display: inline-block; width: 32%; margin-right: 4%; margin-bottom: 1%;}
+.marketing2 ul li:nth-child(2){margin-right: 0;}
+.marketing2 ul li:nth-child(4){margin-right: 0;}
+.marketing2 ul li a {display: inline-block; width: 100%; height: 180px; background-color: #f8f8f8;
+  border-radius: 20px; padding: 20px;overflow: hidden; margin: 0 auto;box-shadow:3px 3px 3px 3px rgba(0,0,0,0.1);}
+.marketing2 ul li a .good_text {width: 50%;float: left; margin: 30px 20px;}
+.marketing2 ul li a .good_text h2 {font-size: 140%; margin-bottom: 20px;text-align: left;}
+.marketing2 ul li a .good_text p {font-family: "Noto Sans KR"; font-weight: lighter; text-align: left;font-size: 15px;}
+.marketing2 ul li a img{width: 30%; margin: 20px; float: left;}
+
+/*section.marketing3*/
+.marketing3 {width: 1400px; height: 900px; padding-top: 100px; margin: 0 auto;}
+.marketing3 .marketing3Title{margin: 0 auto; font-size: 30px; letter-spacing: 0.2em; text-align: center; margin : 20px 0 100px 30px;}
+.marketing3 .marketing3Title img {width: 7%; height: auto;margin-left: 20px;}
+
+.marketing3 ul{width: 1400px; height: auto;overflow: hidden; text-align: center;}
+.marketing3 ul li {display: inline-block; width: 30%; margin-right: 5%; margin-bottom: 1%;}
+.marketing3 ul li:nth-child(2){margin-right: 0;}
+.marketing3 ul li a {display: inline-block; width: 100%; height: auto; background-color: #f8f8f8;
+  border-radius: 70px; padding: 20px 20px 40px 20px;overflow: hidden; margin: 0 auto;box-shadow:3px 3px 3px 3px rgba(0,0,0,0.1);}
+.marketing3 ul li a h2 {width: 100%; margin-top: 40px; margin-bottom: 20px; font-size: 140%; letter-spacing: 0.2em;}
+.marketing3 ul li a img{width: 50%; margin-bottom: 10px;}
+.marketing3 ul li a p{text-align: left; margin: 10px 45px; font-family: "Noto Sans KR"; font-weight: lighter; font-size: 15px;}
+
+/*section.sloagn*/
+.slogan {width: 1400px; height: 500px; margin: 0 auto;text-align: center; font-size: 30px; font-weight: lighter;
+letter-spacing: 0.2em; line-height: 1.6em; padding-top: 300px;}
+
+/*section.team*/
+.team {width: 1400px; height: 900px; padding-top: 100px; margin: 0 auto;}
+.team .teamTitle{font-family: futura-pt,sans-serif; font-style: normal;font-weight: 400;letter-spacing: 0.1em;text-transform: uppercase;
+text-align: center; font-size: 30px; letter-spacing: 0.2em; margin: 70px 0;}
+.team ul {width: 1400px; height: auto; overflow: hidden; text-align: center;}
+.team ul li{display: inline-block; width: 15%; margin-right: 3%; margin-bottom: 2%;}
+.team ul li:nth-child(4){margin-right: 0;}
+.team ul li a {display: inline-block; width: 100%; height: auto;background-color: #f8f8f8;
+border-radius: 120px; padding: 10px; padding-bottom: 30px;}
+.team ul li img {width: 140px;margin: 60px 10px;}
+.team ul li h2{width: 50%; height: auto; border-radius: 100px; background-color: #ecd497;
+font-size: 19px; padding: 5px; margin: 10px auto; letter-spacing: 0.2em;}
+.team ul li p {margin: 40px 0 60px 0; font-family: 'futura-pt'; text-transform: uppercase;
+letter-spacing: 0.1em;line-height: 1.9em; font-size: 17px;}

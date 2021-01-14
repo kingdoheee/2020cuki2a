@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+html, body{
+  position:relative;
+  width:100%;
+  left:0%;
+  right:0%;
+  margin:0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  font-size: 20px;
+  height: 50px;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  background:rgba(255,255,255);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+header i{
+  font-size: 45px;
+}
+
+a {text-decoration: none;
+  color:black;}
+a: link{font-size: 15px;
+color:black;}
+a: hover{
+  color: black;
+}
+
+p{
+  color: black;
+  display: inline;
+}
+hr{
+  margin: 0;
+}
+
+
+section{
+  background:rgba(255,255,255);
+  padding-top:60px;
+}
+div{
+  display: inline;
+}
+img{border:1px solid #888888;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+
+
+h1{
+  font-size: 70px;     /* 각 각의 제목 글씨 크기 */
+  color: black;        /* 각 제목의 글자 색깔 하얀색*/
+  font-family: 'MapoGoldenPier';
+  text-align:center;   
+  /*
+  font-family:
+  각각의 제목에 원하는 글자 모양 넣기*/ 
+}
+h3{
+  font-size:40px;
+}
+.section1{
+  width:100%;
+  text-align: center;
+  background: rgba(255,255,255);
+  font-family: 'MapoGoldenPier';
+  font-size: 50px;
+}
+
+
+.section2{
+  padding-bottom: 30px;
+  text-align: center;
+}
+.section2 img{
+  border:0px;
+  box-shadow:0 0 0 0,0 0 0 0;
+  background:black;
+}
+
+.section3{
+  background-color: rgba(255,255,255);
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom:30px;
+  font-family: 'MapoGoldenPier';
+  font-size:20px;
+}
+.section4{
+  width: 100%;
+  background-color:rgba(248,237,216);
+  font-size:35px;
+  text-align: center;
+  /*padding-bottom:30px;*/
+  font-family: 'MapoGoldenPier';
+}
+
+.section5{
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'MapoGoldenPier';
+  font-size:20px;
+}
+
+.section6{
+  background-color:rgba(230,230,230);
+  text-align: center;
+  font-size:20px;
+  font-family: 'MapoGoldenPier';
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  margin-bottom: 30px;
+  color: black;
+  font-size: 50px;    /* 1.cypress tree글자에 원하는 글씨체 밑 글자 크기 넣어주기 */
+  /*
+  font-family:;
+  */
+}
+
+
+.footer {
+    color: black;
+    background-color: rgba(255,255,255);
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'MapoGoldenPier';
+}
+.footer li{
+  font-size: 35px;  /* '팀원 이름'글자 사이즈 조절은 여기서
+*/
+}
+.footer ul{
+  list-style: none;
+}
+.footer small{
+  font-size: 25px;  /* copyright 글씨 크기 조절은 여기서*/
+}
+.footer big{
+  font-size: 40px; /* '마지막에 제품이름' 글자 크기 조정은 여기서*/
+
+}
+.footer b{
+  font-size: 20px; /* '팀이름' 글자 크기 조정은 여기서*/
+}
